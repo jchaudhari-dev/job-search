@@ -1,23 +1,4 @@
 <template>
-  <div class="wrapper">
-    <h1>Hello, I'm in App.vue</h1>
-
-    <HelloWorld msg="You did it!!" />
-  </div>
+  <h1 class= "mt-8 text-6xl text-center"> Hello Vue</h1>
 </template>
 
-<script>
-import HelloWorld from "./component/HelloWorld.vue";
-
-export default {
-  components: {
-    HelloWorld
-  }
-};
-</script>
-
-<style scoped>
-h1 {
-  color: purple;
-}
-</style>
