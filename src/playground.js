@@ -1,5 +1,19 @@
-const fruits = ["apple", "banana", "cherry"];
+const developers = {
+    salary:100000,
+    experience: 3.0,
+    technologies:["vue", "react", "angular"],
+    lookingForWork: true,
+    doublrSalary(){
+        this.salary *= 2;
+        this.lookingForWork = false;
+    }
+};
 
-const vegetables = ["cucumber","spinach"];
+console.log(developers.salary);
+console.log(developers.lookingForWork);
 
-console.log([...fruits, ...vegetables]);
+developers.doublrSalary();
+
+console.log(developers.salary);
+console.log(developers.lookingForWork);
+
